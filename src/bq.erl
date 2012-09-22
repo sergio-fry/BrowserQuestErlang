@@ -6,5 +6,5 @@ start() ->
   lager:start(),
   application:start(cowboy),
   application:start(bq),
-  appllication:start(mimetypes),
+  application:start(mimetypes),
   ok.
